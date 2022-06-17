@@ -1,5 +1,5 @@
-import 'package:api_practice/Fake-Shop_API/Constants/constants.dart';
-import 'package:api_practice/Fake-Shop_API/Models/product_model.dart';
+import 'package:api_practice/Src/Constants/constants.dart';
+import 'package:api_practice/Src/Models/product_model.dart';
 import 'package:http/http.dart' as http;
 
 class HTTPServices {

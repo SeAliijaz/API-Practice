@@ -1,4 +1,4 @@
-import 'package:api_practice/Fake-Shop_API/Screens/shop_screen.dart.dart';
+import 'package:api_practice/Src/Screens/shop_screen.dart.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'API-Practice',
       home: ShopScreen(),
     );

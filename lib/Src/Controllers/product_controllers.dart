@@ -1,4 +1,4 @@
-import 'package:api_practice/Fake-Shop_API/Services/http_services.dart';
+import 'package:api_practice/Src/Services/http_services.dart';
 import 'package:get/get.dart';
 
 class ProductController extends GetxController {
